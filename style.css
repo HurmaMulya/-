@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1300px;
+    margin: auto;
+}
+
+
+/* First */
+
+#nav {
+    background-color: rgb(243, 240, 240);
+    position: fixed;
+    width: 1300px;
+    font-size: 0;
+    height: 70px;
+    text-align: center;
+    z-index: 1;
+}
+
+#nav a {
+    color: rgb(165, 153, 153);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 27px;
+    height: 70px;
+    line-height: 70px;
+}
+
+#nav a.active,
+#nav a:hover {
+    color: rgb(58, 192, 202);
+    background-color: #ccc;
+}
+
+#header {
+    background-image: url(img/images.jpg);
+    height: 550px;
+    padding: 165px 195px 0 195px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    text-shadow: 0 2px rgb(34, 34, 34);
+}
+
+header h2 {
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.whiteLine {
+    background-color: #fff;
+    text-align: center;
+    color: rgb(128, 128, 128);
+    padding: 20px 190px 35px 190px;
+}
+
+
+/* Second */
+
+.images {
+    position: relative;
+    text-align: center;
+    margin-bottom: 86px;
+    border-image: url(img/divider-pattern.png) 30 round;
+}
+
+.images div {
+    position: relative;
+    display: inline-block;
+    width: 226px;
+    height: 226px;
+    margin-right: 23px;
+}
+
+.images p {
+    display: inline-block;
+    width: 120px;
+    height: 33px;
+    line-height: 33px;
+    background: #fff;
+    border: 1px solid rgb(58, 192, 202);
+    border-radius: 5px;
+    color: rgb(58, 192, 202);
+    margin-top: 40%;
+    opacity: 0;
+}
+
+.images p:hover {
+    opacity: 1;
+    transition: 0.3s linear;
+}
+
+.greece {
+    background-image: url(img/greece.jpg);
+}
+
+.food2 {
+    background-image: url(img/food2.jpg);
+}
+
+.relax {
+    background-image: url(img/relax.jpg);
+}
+
+.travel,
+.gallery,
+.footer_div {
+    width: 730px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.travel img {
+    width: 230px;
+    height: 160px;
+}
+
+.travel .img-right {
+    float: right;
+    padding-left: 16px;
+}
+
+.travel .img-left {
+    float: left;
+    padding-right: 16px;
+}
+
+.travel div {
+    display: inline-block;
+}
+
+.travel p {
+    color: rgb(128, 128, 128);
+    text-align: justify;
+    font-size: 13px;
+    padding: 16px 0;
+    margin: 0px;
+    overflow: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.divider {
+    background: url(img/divider.png) 100%;
+    height: 3px;
+    width: 115%;
+    margin-left: -100px;
+}
+
+
+/* Third */
+
+.gallery h1 {
+    color: rgb(243, 240, 240);
+    font-size: 36px;
+    margin-top: 43px;
+    text-shadow: 0 2px rgb(34, 34, 34);
+    text-align: left;
+}
+
+.gallery img {
+    height: 131px;
+    width: 130px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+
+/* Intresting facts and Itinerary */
+
+.end {
+    margin: auto;
+    margin-top: 50px;
+    /* margin-bottom: 20px; */
+    width: 730px;
+    text-align: center;
+    clear: both;
+}
+
+.end h3 {
+    color: rgb(128, 128, 128);
+}
+
+.end p {
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    text-align: justify;
+}
+
+.col1,
+.col2 {
+    float: left;
+    width: 46%;
+    line-height: 20px;
+}
+
+.col2 {
+    box-sizing: border-box;
+    margin-left: 26px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(91, 85, 85);
+    /* height: 180px; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+
+footer h3 {
+    color: rgb(128, 128, 128);
+    margin: 27px 0;
+}
+
+footer p {
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+    text-align: justify;
+    position: relative;
+}
+
+.col1,
+.col2 {
+    float: left;
+    width: 46%;
+    margin-bottom: 34px;
+}
+
+footer button {
+    color: #fff;
+    background: linear-gradient(to top, rgb(48, 151, 181), rgb(115, 201, 226));
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+}
+
+footer input {
+    border: 2px rgb(238, 238, 238) inset;
+    border-radius: 3px;
+    width: 165px;
+    text-align: left;
+}
+
+.sign {
+    clear: both;
+    display: block;
+    position: relative;
+    /* margin-top: 35px; */
+    margin-bottom: 14px;
+}
+
+.sign p {
+    color: rgb(128, 128, 128);
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+}
